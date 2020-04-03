@@ -1,3 +1,6 @@
 import React from 'react';
 
-export default React.createContext(null);
+// required for parcel-bundler
+const CardContext = React.createContext(null);
+
+export default CardContext;

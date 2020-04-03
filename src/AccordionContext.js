@@ -1,3 +1,6 @@
 import React from 'react';
 
-export default React.createContext(null);
+// required for parcel-bundler
+const AccordionContext = React.createContext(null);
+
+export default AccordionContext;
